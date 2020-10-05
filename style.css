@@ -1,0 +1,139 @@
+ * {
+  box-sizing: border-box;
+  font-family: 'Molengo', sans-serif;
+ }
+body{
+	background-color: #262626;
+margin: 0;
+ }
+ ul {
+ 	background: linear-gradient(to bottom, rgba(68 66 66),  rgba(0, 0, 0, 0));
+ 	list-style-type: none;
+ 	margin: 0;
+
+ }
+ li {
+ 	display: inline;
+ 	color: white;
+ 	vertical-align: middle;
+ 	margin-right: 2em;
+ 	font-size: 13.5px;
+ }
+ p{
+ 	/*text-align: justify;
+  text-justify: inter-word;*/
+  font-size: 20px;
+ }
+ span {
+ 	display: block;
+ 	color: white;
+ 	 text-align: center;
+ }
+.video-contenedor {
+position: relative;
+width: 100%;
+height: 100vh;
+z-index: -1;
+ }
+.video {
+background: 0;
+right: 0;
+position: absolute;
+min-width: 100%;
+min-height: 100%;
+ }
+.desc {
+color: white;
+position: absolute;
+left: 10px;
+top: 10em;
+background: 50%;
+width: 45%;
+padding: 30px 20px 30px;
+text-shadow: -2px 2px 2px #000000;
+ }
+.desc h1{
+font-size: 39px;
+ }
+.contenido-serie{
+display: flex;
+justify-content: space-around;
+margin-top: -2em;
+ }
+.serie{
+width: 230px;
+height: 300px;
+border-radius: 3px;
+display: flex;
+justify-content: center;
+color: white;
+ }
+ .logo{
+ 	position: absolute;
+ 	width: 100%;
+ 	background: 50%;	
+	
+ }
+ .img {
+ 	margin-top: 1em;
+ 	width: 10em;
+ 	height: 3em;
+ }
+ .img2 {
+ 	width: 20em;
+ 	height: 8em;
+ }
+ .img3 {
+ 	width: 1em;
+ 	height: 1em;
+ }
+ .popu {
+ 	padding-top: 20px;
+ 	position: absolute;
+ 	left: 10px;
+ 	top: 21.5em;
+ 	font-size: 2em;
+ 	color: white;
+ 	padding-left: 1px;
+ }
+ .accion {
+ 	padding-top: 0.5em; 
+ 	padding-bottom: 1.5em; 
+ 	padding-left: 0.5em;
+ 	color: white;
+ 	font-size: 27px;
+ }
+ .foot {
+ 	background: linear-gradient(to bottom, rgba(0, 0, 0, 0),  rgba(68 66 66));
+ 	width: 100%;
+ 	opacity: 0.5;
+ 	vertical-align: top;
+    display: inline-block;
+    text-align: center;
+ 	padding-bottom: 1em;
+ }
+ .reproducir {
+ 	position: absolute;
+ 	width: 30%;
+ 	text-align: center;
+ 	background-color: white;
+ 	color: black;
+ 	font-size: 20px;
+ 	font-weight: bold;
+ 	border-radius: 5px;
+ 	text-shadow: none;
+ 	padding: 10px 10px 10px 10px; 
+ }
+ .info {
+ 	position: absolute;
+ 	width: 30%;
+ 	text-align: center;
+ 	background: rgba(128, 128, 128, 0.6); 
+ 	color: white;
+ 	font-size: 20px;
+ 	font-weight: bold;
+ 	border-radius: 5px;
+ 	text-shadow: none;
+ 	padding: 10px 10px 10px 10px; 
+ 	margin-left: 11em;
+ }
